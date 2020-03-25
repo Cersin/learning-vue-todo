@@ -1,0 +1,32 @@
+#container{
+    background-color: whitesmoke;
+
+}
+#nowe-todo{
+    border: 2px solid #cdcdcd;
+    margin:6px;
+    padding:10px;
+    display: grid;
+    text-align: center;
+}
+.text-input{
+    justify-self: center;
+
+}
+.item{
+    border: 2px solid #cdcdcd;
+    margin:6px;
+    padding:10px;
+    display: grid;
+}
+
+#items{
+    display: grid;
+    grid-template-columns: auto auto;
+}
+
+.completed{
+    opacity: 0.5;
+    text-decoration: line-through;
+
+}
